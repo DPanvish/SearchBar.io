@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Search Bar</title>
+    <!-- Font Awesome Icon CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Search Bar Begins -->
+    <div class="searchbarContainer">
+        <!-- Dropdown Begin-->
+        <div class="dropdown">
+
+            <div id="dropdownText" class="dropdownText">
+                <span id="span">Everything</span>
+                <i id="icon" class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <ul id="dropdownList" class="dropdownList">
+                <li class="dropdownlistItem">Everything</li>
+                <li class="dropdownlistItem">Software Development</li>
+                <li class="dropdownlistItem">Web Development</li>
+                <li class="dropdownlistItem">Data Analyst</li>
+                <li class="dropdownlistItem">IT Consultant</li>
+                <li class="dropdownlistItem">Network Administrator</li>
+            </ul>
+
+        </div>
+        <!-- Dropdown End -->
+
+        <!-- Search Bar Input Begin-->
+        <div class="searchBar">
+            <input type="text" id="searchInput" placeholder="Search Anything">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+    <!-- Search Bar End-->
+
+    <script src="script.js"></script>
+</body>
+</html>
